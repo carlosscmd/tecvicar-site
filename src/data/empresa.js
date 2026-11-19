@@ -38,21 +38,21 @@ export const empresa = {
     {
       nome: "Carlos Eduardo Cruz da Costa",
       cargo: "CEO e Engenheiro de Software",
-      foto: "/images/wanderson.jpg",
+      foto: "/images/carlostecvicar.jpeg",
       alt: "Foto de Carlos Eduardo Cruz da Costa",
       descricao: "fundador da TecVicar e atua como desenvolvedor Back-End. Amigo de Victor Emanoel, a quem conheceu durante o Ensino Médio, construiu com ele uma parceria baseada no interesse pela tecnologia, dando origem à TecVicar."
     },
     {
       nome: "Victor Emanoel Oliveira Lopes",
       cargo: "Diretor de Tecnologia (CTO) & Co-fundador",
-      foto: "/images/sheldon.jpg",
+      foto: "/images/victortecvicar.jpeg",
       alt: "Foto Victor Emanoel Oliveira Lopes",
       descricao: "co-fundador da TecVicar e atua como Diretor de Tecnologia (CTO).Amigo de Carlos Eduardo que compartilha com ele o sonho de inovar no mercado tecnológico, contribuindo com a liderança e o desenvolvimento de soluções digitais para a empresa."
     },
     {
       nome: "Jove Oliveira dos Santos",
       cargo: "Líder de Design",
-      foto: "/images/amy.jpg",
+      foto: "/images/jovetecvicar.jpeg",
       alt: "Foto de Jove Oliveira dos Santos",
       descricao: "Ao conhecer a TecVicar por eventos de tecnologia ela se integra a equipe como Líder de Design, sendo responsável pela identidade visual, organização estética e experiência visual dos projetos da empresa."
     }
