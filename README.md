@@ -5,7 +5,7 @@
 ## Sobre a Empresa
 Transformar o potencial de negócios por meio do desenvolvimento de softwares
 inovadores, a partir da criação de arquiteturas de bancos de dados robustos e seguros,
-impulsionando a transformação digital de forma eficiente e segura para o melhor  crescimento dos nossos clientes.
+impulsionando a transformação digital de forma eficiente para melhorar o crescimento dos nossos clientes.
 
 ## Localização
 - **Endereço:** Rua João Damacena, N°193  
