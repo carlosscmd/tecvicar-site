@@ -1,41 +1,20 @@
-<html lang="pt-BR">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Início | TecVicar</title>
-	</head>
-	<body>
-		<header>
-			<strong>TecVicar</strong>
-			<nav>
-				<ul>
-					<li><a href="/">Início</a></li>
-					<li><a href="/sobre">Sobre</a></li>
-					<li><a href="/equipe">Equipe</a></li>
-					<li><a href="/contato">Contato</a></li>
-				</ul>
-			</nav>
-		</header>
+---
+import LayoutBase from '../layouts/LayoutBase.astro';
+import { empresa } from '../data/empresa.js';
+---
 
-        <main>
-			<section>
-				<h1>Tecnologias que transforma ideias em soluções </h1>
-				<p>Transformar o potencial de negócios por meio do desenvolvimento de softwares inovadores, a partir da criação de arquiteturas de bancos de dados robustos, impulsionando a transformação digital de forma eficiente e segura para o melhor crescimento dos nossos clientes.</p>
-				<a href="/contato">Fale Conosco</a>
-			</section>
+<LayoutBase 
+	titulo="Início" 
+	descricao={`Bem-vindo à ${empresa.nome}. ${empresa.slogan}`}
+>
+	<section>
+		<h1>{empresa.slogan}</h1>
+		<p>{empresa.missao}</p>
+		<a href="/contato">Fale Conosco</a>
+	</section>
 
-			<section>
-				<h2>Quem Atendemos</h2>
-				<p>Empresas focadas em Gestão de Dados: PMEs, startups e instituições que lidam com 
-				grandes volumes de informações e necessitam de bancos de dados seguros, otimizados e 
-				de alta disponibilidade para suportar suas operações diárias.Exemplos instituições de 
-				ensino, empreendedores, estudantes e organizações que precisam de soluções digitais personalizada. </p>
-			</section>
-		</main>
-
-		<footer>
-			<p>&copy; 2026 TecVicar. Todos os direitos reservados.</p>
-		</footer>
-	</body>
-</html>
+	<section>
+		<h2>Quem Atendemos</h2>
+		<p>{empresa.publicoAlvo}</p>
+	</section>
+</LayoutBase>
