@@ -55,6 +55,13 @@ export const empresa = {
       foto: "/images/jovetecvicar.jpeg",
       alt: "Foto de Jove Oliveira dos Santos",
       descricao: "Ao conhecer a TecVicar por eventos de tecnologia ela se integra a equipe como Líder de Design, sendo responsável pela identidade visual, organização estética e experiência visual dos projetos da empresa."
+    },
+    {
+      nome: "Eneias Cardeiro Menesses",
+      cargo: "Chefe da segurança",
+      foto: "/images/eneiastecvicar.png",
+      alt: "Foto de Eneias Cardeiro Menesses",
+      descricao: "Eneas Carneiro entrou para a TecVicar durante uma fase de crescimento da empresa, quando o setor de segurança se encontrava precarizado. Assumiu o cargo de Chefe de Segurança com a missão de proteger os sistemas e dados da empresa e clientes. Sua chegada ficou marcada pela promessa de desenvolver a chamada segurança nuclear"
     }
   ]
 };
