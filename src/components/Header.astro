@@ -9,7 +9,7 @@ const currentPath = Astro.url.pathname;
 	<div class="container cabecalho-container">
 		<a href="/">
 			<img 
-				src="/images/logo.png" 
+				src="/images/logo_tecvicar.png" 
 				alt={`Logotipo da ${empresa.nome}`} 
 				class="logo-img" 
 			/>
@@ -33,7 +33,7 @@ const currentPath = Astro.url.pathname;
 	}
 
 	.cabecalho {
-		background-color: var(--cor-fundo);
+		background: var(--degrade-marca);
 		border-bottom: 1px solid var(--cor-borda);
 		padding-bottom: 1rem;
 	}
@@ -48,7 +48,7 @@ const currentPath = Astro.url.pathname;
 	}
 
 	.logo-img {
-		height: 60px; /* Logo maior e legível */
+		height: 65px; /* Logo maior e legível */
 		width: auto;
 		display: block;
 	}
