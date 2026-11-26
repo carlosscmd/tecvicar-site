@@ -1,10 +1,10 @@
 :root {
 
   --cor-primaria: #181C25;
-  --cor-secundaria: #30c8f6ec; 
-  --cor-destaque: #0066CC; 
+  --cor-secundaria: #30c8f6; 
+  --cor-destaque: #0076ec; 
   --cor-fundo: #181C25;
-  --cor-fundo-alt: #f8fafc;
+  --cor-fundo-alt: #a3cdf7;
   --cor-texto: #ffffff;
   --cor-texto-secundario:#D1D5DB;
   --cor-texto-invertido: #ffffff;
@@ -13,16 +13,17 @@
   --cor-hero-fim: #30c8f6da;
 
   --degrade-marca: linear-gradient(
-    90deg,
-
+    0deg,
+    var(--cor-fundo-alt),
     var(--cor-destaque),
-    var(--cor-secundaria)
+    var(--cor-fundo)
     
   );
   --degrade-hero: linear-gradient(
-    135deg,
+    180deg,
+    var(--cor-fundo-alt),
     var(--cor-destaque),
-    var(--cor-hero-fim)
+    var(--cor-fundo)
   );
 
   --borda-raio: 8px;
@@ -38,8 +39,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: 'Segoe UI','Trebuchet MS', Arial, sans-serif;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
   line-height: 1.6;
