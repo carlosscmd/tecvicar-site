@@ -58,7 +58,7 @@ export const empresa = {
     },
     {
       nome: "Eneias Cardeiro Menesses",
-      cargo: "Chefe da segurança",
+      cargo: "Chefe da Segurança",
       foto: "/images/eneiastecvicar.png",
       alt: "Foto de Eneias Cardeiro Menesses",
       descricao: "Eneas Carneiro entrou para a TecVicar durante uma fase de crescimento da empresa, quando o setor de segurança se encontrava precarizado. Assumiu o cargo de Chefe de Segurança com a missão de proteger os sistemas e dados da empresa e clientes. Sua chegada ficou marcada pela promessa de desenvolver a chamada segurança nuclear"

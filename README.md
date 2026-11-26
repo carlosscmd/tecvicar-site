@@ -15,3 +15,4 @@ impulsionando a transformação digital de forma eficiente para melhorar o cresc
 - **Carlos Eduardo Cruz da Costa** — Fundador & Desenvolvedor BACK-END
 - **Victor Emanoel Oliveira Lopes** — Diretor de Tecnologia (CTO) & Co-fundador
 - **Jove Oliveira dos Santos** — Líder de Design
+- **Eneias Cardeiro Menesses** - Chefe da Segurança
